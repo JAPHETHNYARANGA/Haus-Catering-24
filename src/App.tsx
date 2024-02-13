@@ -1,12 +1,23 @@
 import './App.css'
+import NavbarComponent from './components/Global/navbar/navbar'
 import NavigationComponent from './navigation'
+
+
+
 
 function App() {
 
 
   return (
     <>
-      <NavigationComponent />
+    <div className="navbar">
+      <NavbarComponent />
+    </div>
+     <div className="body">
+     <NavigationComponent />
+     </div>
+     
+    
     </>
   )
 }

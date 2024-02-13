@@ -1,0 +1,95 @@
+.Navbar-container {
+  .nav-bars{
+    display:none;
+  }
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px 0;
+
+    .image{
+      img{
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+  }
+  
+  .menu-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .menu-items li {
+    margin-right: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    .button-test{
+      padding-left: 2rem;
+    }
+  }
+  
+  .order {
+    background-color: #3b71f3;
+    color: #ffffff;
+  }
+  
+  .quote {
+    background-color: #f3a53b;
+    color: #ffffff;
+  }
+  
+  @media only screen and (max-width:  600px) {
+    .Navbar-container{
+      .nav-bars{
+        display:block;
+      }
+      transition: transform 0.3s ease-in-out;
+      width: fit-content;
+      height: 100%;
+      display: block;
+      position: absolute;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding: 1rem 0 0 1rem;
+      .menu-items ul {
+        list-style: none;
+        padding: 1rem 0;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+      }
+      .buttons {
+        display: block;
+        .button-test{
+          padding-left: 0;
+          padding-top: 1rem;
+        }
+      }
+      .image{
+        display: none;
+      }
+    }
+    .show-sidebar {
+      transform: translateX(-110%);
+    }
+  }
+
+  @media only screen and (min-width:  601px) and (max-width:  767px) {
+    /* CSS rules */
+  }
+
+  @media only screen and (min-width:  768px) and (max-width:  1023px) {
+    /* CSS rules */
+  }
+
+
+  
+ 
+  
