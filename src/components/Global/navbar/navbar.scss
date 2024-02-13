@@ -1,7 +1,7 @@
+.nav-bars{
+  display:none;
+}
 .Navbar-container {
-  .nav-bars{
-    display:none;
-  }
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -46,10 +46,10 @@
   }
   
   @media only screen and (max-width:  600px) {
+    .nav-bars{
+      display:block;
+    }
     .Navbar-container{
-      .nav-bars{
-        display:block;
-      }
       transition: transform 0.3s ease-in-out;
       width: fit-content;
       height: 100%;
