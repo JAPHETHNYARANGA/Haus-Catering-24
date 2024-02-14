@@ -1,0 +1,16 @@
+.fourth-section{
+    .cards{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width:  600px) {
+    .fourth-section{
+        .cards{
+            display: block;
+            width: fit-content;
+        }
+    }
+}
+    

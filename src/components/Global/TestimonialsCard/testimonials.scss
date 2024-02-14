@@ -1,0 +1,11 @@
+.testimonials{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    padding: 2rem;
+
+    img{
+        border-radius: 50%; /* Set border-radius to 50% for a perfect circle */
+        width: 100px; /* Set the width to half of the image's size */
+        height: 100px; /* Set the height to half of the image's size */
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,22 @@
+.container-tilt{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    .delivery{
+        text-align: center;
+    }
+    .quality{
+        text-align: center;
+    }
+    .ontime-delivery{
+        text-align: center;
+    }
+}
+
+.line{
+    height: 5rem;
+    width: 2px;
+    background-color: black;
+}

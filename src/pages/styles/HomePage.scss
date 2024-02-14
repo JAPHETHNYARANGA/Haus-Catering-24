@@ -1,0 +1,30 @@
+  .home-page-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center children horizontally */
+  }
+  
+  .tilt-section {
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .space-intilt{
+    height: 14rem;
+  }
+  .space-in-fifth{
+    height: 20rem;
+  }
+
+  @media only screen and (max-width:  600px) {
+    .tilt-section {
+      position: absolute;
+      width: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .space-in-fifth{
+      height: 30rem;
+    }
+  }

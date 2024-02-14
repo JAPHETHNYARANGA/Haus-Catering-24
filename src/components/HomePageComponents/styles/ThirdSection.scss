@@ -1,0 +1,17 @@
+.third-section{
+    text-align: center;
+}
+.bottom-items{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width:  600px) {
+    .third-section{
+        display: block;
+    }
+    .bottom-items{
+        display: block;
+       
+    }
+    
+}

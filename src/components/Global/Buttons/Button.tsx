@@ -1,6 +1,6 @@
 import './Buttons.scss'
 
-interface ButtonProps {
+  interface ButtonProps {
     text: string;
     bgColor?: string; 
     onClick?: () => void;

@@ -1,0 +1,27 @@
+.footer{
+    text-align: center;
+    background-color: #383456;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    .third{
+        button{
+            background-color: green;
+        }
+    }
+}
+
+
+@media only screen and (max-width:  600px) {
+    .footer{
+        display: block;
+        justify-content: space-around;
+        padding: 2rem 0;
+        .third{
+            button{
+                background-color: green;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.fifthsection-component{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    padding: 1rem;
+    .right{
+        img{
+            border-radius: 20px;
+        }
+    }
+}
+
+
+@media only screen and (max-width:  600px) {
+    .fifthsection-component{
+        display: block;
+        
+        .right{
+            img{
+                border-radius: 20px;
+            }
+        }
+    }
+}

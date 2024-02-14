@@ -1,0 +1,46 @@
+.second-h4{
+    text-align: center;
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.second-p{
+    text-align: center;
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.cards-top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+.cards-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width:  600px) {
+    .second-section{
+        .cards-top{
+            display: block;
+            justify-content: center;
+            width: fit-content;
+            padding-top: 1rem;
+        }
+        .cards-bottom{
+            display: block;
+            justify-content: center;
+            width: fit-content;
+            padding-top: 1rem;
+        }
+        
+    }
+    
+}
