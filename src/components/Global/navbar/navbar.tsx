@@ -3,16 +3,33 @@ import ButtonComponent from '../Buttons/Button'
 import './navbar.scss'
 
 
+interface SendMessageParameters{
+  phoneNumber:string,
+  message:string
+}
+
 export default function NavbarComponent() {
   const [showSidebar, setShowSidebar] = useState(false);
+
+  const phoneNumber = '0734290030'; // Replace with the desired phone number
+  const message = 'Hello, this is a test message!';
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
   };
 
-  const orderNow = () =>{
-    console.log('order now clicked')
-  }
+  const sendWhatsAppMessage = ({phoneNumber, message}:SendMessageParameters) => {
+    // Ensure the phone number includes the country code
+    const formattedPhoneNumber = phoneNumber.replace(/[^0-9]/g, '');
+    // Encode the message to make it URL-safe
+    const encodedMessage = encodeURIComponent(message);
+  
+    // Construct the WhatsApp URL
+    const whatsAppUrl = `https://wa.me/${formattedPhoneNumber}?text=${encodedMessage}`;
+  
+    // Open the link in a new window or tab
+    window.open(whatsAppUrl, '_blank');
+  };
   const getQuote = () =>{
     console.log('quote clicked')
   }
@@ -33,7 +50,7 @@ export default function NavbarComponent() {
         </div>
         <div className="buttons">
           <div className="button">
-          <ButtonComponent text="ORDER NOW" onClick={orderNow} bgColor="green" />
+          <ButtonComponent text="ORDER NOW" onClick={() => sendWhatsAppMessage({phoneNumber, message})} bgColor="green"  />
           </div>
           <div className="button-test">
           <ButtonComponent text="GET A QUOTE" onClick={getQuote} bgColor="blue"/>

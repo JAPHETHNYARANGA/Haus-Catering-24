@@ -4,6 +4,12 @@
 .bottom-items{
     display: flex;
     justify-content: space-around;
+
+    .on-time, .easy ,.sustainable{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
 @media only screen and (max-width:  600px) {
     .third-section{

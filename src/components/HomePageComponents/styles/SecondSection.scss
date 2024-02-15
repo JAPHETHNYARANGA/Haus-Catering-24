@@ -29,16 +29,14 @@
 @media only screen and (max-width:  600px) {
     .second-section{
         .cards-top{
-            display: block;
-            justify-content: center;
-            width: fit-content;
-            padding-top: 1rem;
+            display: flex;
+            flex-direction: column; /* Display cards vertically */
+            align-items: center; /* Center cards horizontally */
         }
         .cards-bottom{
-            display: block;
-            justify-content: center;
-            width: fit-content;
-            padding-top: 1rem;
+            display: flex;
+            flex-direction: column; /* Display cards vertically */
+            align-items: center; /* Center cards horizontally */
         }
         
     }

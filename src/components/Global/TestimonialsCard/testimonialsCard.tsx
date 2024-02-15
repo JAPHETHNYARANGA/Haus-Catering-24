@@ -17,7 +17,7 @@ export default function TestimonialsCard({image, text}: testimonialsCard) {
             <i className="fa-solid fa-star"></i>
         </div>
         <img src={image} alt="" />
-        <p>{text}</p>
+        <p dangerouslySetInnerHTML={{ __html: text }}></p>
         
     </div>
   )

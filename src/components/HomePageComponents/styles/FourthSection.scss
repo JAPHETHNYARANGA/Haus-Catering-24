@@ -1,4 +1,6 @@
 .fourth-section{
+    text-align: center;
+    padding: 2rem 0;
     .cards{
         display: flex;
         justify-content: space-around;
@@ -7,9 +9,10 @@
 
 @media only screen and (max-width:  600px) {
     .fourth-section{
-        .cards{
-            display: block;
-            width: fit-content;
+        .cards {
+            display: flex;
+            flex-direction: column; /* Display cards vertically */
+            align-items: center; /* Center cards horizontally */
         }
     }
 }
