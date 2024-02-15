@@ -1,6 +1,6 @@
 import FoodCard from '../Global/FoodCard/FoodCard'
 import './styles/SecondSection.scss'
-import React from 'react'
+// import React from 'react'
 
 export default function SecondSection() {
   return (

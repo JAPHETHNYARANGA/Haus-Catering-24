@@ -1,5 +1,5 @@
 import './styles/ThirdSection.scss';
-import React from 'react'
+// import React from 'react'
 
 export default function ThirdSection() {
   return (

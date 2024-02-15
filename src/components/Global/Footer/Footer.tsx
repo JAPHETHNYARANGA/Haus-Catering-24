@@ -24,16 +24,16 @@ export default function Footer() {
         <div className="second">
             <p>Follow Me</p>
             <div className="facebook">
-                <i className="fa-brands fa-facebook-f"></i>
-                Facebook
+                <i className="fa-brands fa-facebook-f fa-2x"></i>
+               
             </div>
             <div className="twitter">
-            <i className="fa-brands fa-square-x-twitter"></i>
-                x
+            <i className="fa-brands fa-square-x-twitter fa-2x"></i>
+                
             </div>
             <div className="instagram">
-            <i className="fa-brands fa-square-instagram"></i>
-                Instagram
+            <i className="fa-brands fa-square-instagram fa-2x"></i>
+               
             </div>
         </div>
         <div className="third">

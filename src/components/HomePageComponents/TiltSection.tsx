@@ -1,5 +1,5 @@
 import './styles/TiltSection.scss';
-import React from 'react'
+// import React from 'react'
 
 export default function TiltSection() {
   return (
