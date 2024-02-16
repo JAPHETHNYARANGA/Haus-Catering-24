@@ -20,3 +20,23 @@
     width: 2px;
     background-color: black;
 }
+
+@media only screen and (max-width:  600px) {
+    .container-tilt{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        .delivery{
+            text-align: center;
+        }
+        .quality{
+            text-align: center;
+        }
+        .ontime-delivery{
+            text-align: center;
+        }
+    }
+
+    
+}

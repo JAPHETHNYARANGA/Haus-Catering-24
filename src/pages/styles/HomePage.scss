@@ -21,11 +21,15 @@
     width: 100%;
   }
   @media only screen and (max-width:  600px) {
+    
     .tilt-section {
       position: absolute;
       width: 70%;
       left: 50%;
       transform: translateX(-50%);
+    }
+    .space-intilt{
+      height: 35rem;
     }
     .space-in-fifth{
       height: 80rem;
