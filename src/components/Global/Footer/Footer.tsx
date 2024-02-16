@@ -1,4 +1,7 @@
 import './Footer.scss';
+import InstagramIcom from '../../../assets/instagram.png';
+import TwitterIcom from '../../../assets/twitter.png';
+import FacebookIcom from '../../../assets/facebook.png';
 
 
 export default function Footer() {
@@ -24,15 +27,15 @@ export default function Footer() {
         <div className="second">
             <p>Follow Me</p>
             <div className="facebook">
-                <i className="fa-brands fa-facebook-f fa-2x"></i>
+            <img src={FacebookIcom} alt="" />
                
             </div>
             <div className="twitter">
-            <i className="fa-brands fa-square-x-twitter fa-2x"></i>
+            <img src={TwitterIcom} alt="" />
                 
             </div>
             <div className="instagram">
-            <i className="fa-brands fa-square-instagram fa-2x"></i>
+            <img src={InstagramIcom} alt="" />
                
             </div>
         </div>
