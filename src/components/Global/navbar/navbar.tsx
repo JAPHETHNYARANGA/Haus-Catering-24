@@ -15,7 +15,7 @@ interface QuoteMessageParameters{
 export default function NavbarComponent() {
   const [showSidebar, setShowSidebar] = useState(false);
 
-  const phoneNumber = '+254 102 59860'; // Replace with the desired phone number
+  const phoneNumber = '+25410259860'; // Replace with the desired phone number
   const message = 'Hello, i have a few questions';
   const QuoteMessage = 'Hello, Can i get a quote?';
 
