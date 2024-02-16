@@ -17,7 +17,7 @@ export default function Footer() {
                     Kisumu
             </div>
             <div className="phone">
-                    300 322 240
+                    +25410259860
             </div>
             <div className="email">
               sales@hauscatering.com
