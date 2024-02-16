@@ -5,6 +5,14 @@
     display: flex;
     justify-content: space-around;
     padding: 2rem 0;
+    .second{
+        .instagram,.twitter,.facebook {
+            img{
+                height: 2rem;
+            }
+        }
+       
+    }
     
 }
 
