@@ -11,13 +11,13 @@ export default function Footer() {
             <p>We are here to help with all your corporate catering needs.</p>
 
             <div className="location">
-                    Retail: Goldsbrough Lane, 550 Bourke Street Melbourne 3000
+                    Kisumu
             </div>
             <div className="phone">
                     300 322 240
             </div>
             <div className="email">
-              sales@briskcatering.com.au
+              sales@hauscatering.com
             </div>
 
         </div>
@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="third">
             <p>Call us to your events</p>
             <p>
-            Brisk Catering is available Monday to Friday <br/>from 7.00am – 5.00pm. Orders need to be placed by 3pm<br/> on the business day prior to your meeting.
+            HAUS CATERING is available Monday to Friday <br/>from 7.00am – 5.00pm. Orders need to be placed by 3pm<br/> on the business day prior to your meeting.
             </p>
 
             <h3>Ready to get started?</h3>
